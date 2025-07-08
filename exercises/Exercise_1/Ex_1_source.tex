@@ -1,0 +1,91 @@
+\begin{aufgabe}[Groups (1/2)]
+The mathematical concept of groups was introduced in the lecture. 
+
+\begin{teilaufgabe}
+\item Justify whether the following tuple $(P,\heartsuit)$ represents a group. The Set $P$ consists of all people on earth and the operation 	$\heartsuit$ is defined for $p_1, p_2 \in P $ 
+as: $p_1 	\heartsuit p_2 = p_1$ loves $p_2$.
+
+\end{teilaufgabe}
+
+\begin{teilaufgabe}
+\item Justify whether the following tuple $(G,*)$ represents a group. Where $G~=~\{a,b,c,d\}$ and the mapping rule $*$ is defined in table Tabelle 1.
+
+    \begin{table}[h!]
+                \centering
+                \begin{tabular}{c|c|c|c|c}
+                    $*$  & a & b & c & d \\ \hline
+                    a    & b & d & a & a \\
+                    b    & c & b & a & b\\
+                    c    & a & d & a & d\\
+                    d    & a & b & c & d
+                \end{tabular}
+                \caption{}
+                \label{tab:t1}
+            \end{table}
+\end{teilaufgabe}
+
+\end{aufgabe}
+
+
+
+\begin{aufgabe}[Groups (2/2)]
+Proof the following theorems:
+
+\begin{teilaufgabe}
+\item Each group has a unique identity.
+\end{teilaufgabe}
+
+\begin{teilaufgabe}
+\item Each element in a group has a unique inverse.
+\end{teilaufgabe}
+
+\end{aufgabe}
+
+
+
+\begin{aufgabe}[Group Homomorphism (1/2)]
+Show that the function $f: \mathbb{R} \rightarrow  \mathbb{R}$ defined by $f(x)=ax+b$, where $a,b \in \mathbb{R}$ and $b \neq 0$, is not a homomorphism between the group $(\mathbb{R},+)$ and  $(\mathbb{R},+)$.
+\end{aufgabe}
+
+
+
+\begin{aufgabe}[Group Homomorphism (2/2)]
+Show that the function $f: \mathbb{R^+} \rightarrow  \mathbb{R}$ defined by $f(x)=log(x)$ is a homomorphism between the group $(\mathbb{R^+},*)$ and  $(\mathbb{R},+)$.
+\end{aufgabe}
+
+
+
+\begin{aufgabe}[Paillier scheme]
+The Paillier scheme is a PHE scheme introduced in 1999. 
+The keygeneration algorithm yields a public key $(n,g)$ and a secret key $(p,q)$.
+
+\textit{Encryption Algorithm:}\\
+For each message $m \in \mathbb{Z}_n$ (integers smaller $n$), the number $r \in \mathbb{Z}^*_{n^2}$ (multiplicative group of integers smaller $n^2$) is randomly chosen and the encryption works as follows:
+
+\begin{equation*}
+    c = E(m) = g^mr^n \pmod{n^2}
+\end{equation*}
+
+Proof that the Paillier scheme is a PHE scheme.
+
+\end{aufgabe}
+
+
+
+\begin{aufgabe}[PHE Schemes]
+PHE schemes have the disadvantage that they only support one operation (usually addition or multiplication), but this operation can be performed any number of times. In practice, there are also many practical applications where only one operation is required. Think of such an example and describe it
+\end{aufgabe}
+
+
+
+\begin{aufgabe}[OpenFHE]
+OpenFHE is a C++ library which provides implementation of common FHE schemes.
+Compared to other HE libraries OpenFHE has the most features.
+We want to use the library in the following exercises, so in this task you should follow the instructions on \url{https://openfhe-development.readthedocs.io/en/latest/} and install all necessary prerequisites.
+
+After that you should be able to run on of the example scripts, which are located in our cloned version of the OpenFHE repo.
+You can try this one as a test:
+
+src/binfhe/examples/boolean.cpp
+\end{aufgabe}
+

@@ -1,0 +1,71 @@
+\begin{aufgabe}[Homomorphic Implementation of the Binary Step Function]
+Now that we have implemented both the inverse and the root function homomorphically in exercise sheet 7, we want to use them to calculate the binary step $BS$ function homomorphically. As a reminder, the following calculation rule was given in the lecture for the implementation of the BS function:   
+
+
+\begin{equation}
+    BS = \frac{1}{2} * (x * \frac{1}{\sqrt{x^2}} +1)
+\end{equation}
+
+Specifically, we want to implement the BS function homomorphically on the interval $[ -1, 1 ]$.
+
+\begin{teilaufgabe}
+    \item To calculate the binary step function on this interval, the calculation of $\sqrt{x^2}$ is required. 
+    \begin{teilaufgabe}
+        \item[i)] Specify the range of values on which we must be able to calculate the root to implement the BS function.
+        \item[ii)] Configure your implementation of the root using the previously determined interval. Then, divide this interval into 100 evenly distributed points and calculate the root for these points once homomorphically and once in plain text. Plot both the homomorphically and non-homomorphically calculated root values in one figure.
+    \end{teilaufgabe}
+    \item To calculate the binary step function on this interval, the calculation of $\frac{1}{\sqrt{x^2}}$ is required. 
+    \begin{teilaufgabe}
+        \item[i)] Specify the range of values on which we must be able to calculate the inverse to implement the BS function.
+        \item[ii)] Configure your implementation of the inverse using the previously determined interval. Then, divide this interval into 100 evenly distributed points and calculate the inverse for these points once homomorphically and once in plain text. Plot both the homomorphically and non-homomorphically calculated inverse values in one figure.
+    \end{teilaufgabe}
+    \item Next, implement the BS function using the previously determined inverse and root calculation intervals.
+    \item Divide the interval $[-1,1]$ into 100 evenly distributed points and calculate the BS function homomorphically for these points. Plot the calculated values against the real BS function.
+\end{teilaufgabe}
+
+
+\end{aufgabe}
+
+
+
+
+
+\begin{aufgabe}[Homomorphic Selection of the key with the lowest value]
+Determining the key with the lowest value is an important step that must be calculated in many machine-learning applications. For example, in the Box-Cox transformation, one must determine the $\lambda$ value with the lowest $c$ value. In this task, we therefore consider the following exemplary situation during a Box-Cox transformation, in which we have the following tuples: 
+
+\begin{table}[h!]
+    \centering
+\begin{tabular}{c|c}
+     $\lambda$ & $c$ \\ \hline
+     -0.5 & 8 \\
+     0.5  & 3
+\end{tabular}
+\end{table}
+
+
+Determine the $\lambda$ value with the lowest $c$ value.
+
+\begin{teilaufgabe}
+    \item In the lecture, the calculation of the minimum function was defined as follows:
+    \begin{equation}
+        min(a,b) = a+b - max(a,b)
+    \end{equation}
+    \begin{equation}
+        max(a,b) = \frac{a+b}{2} + \frac{\sqrt{(a-b)^2}}{2}
+    \end{equation}
+    \begin{teilaufgabe}
+        \item[i)] To calculate the minimum, it is necessary to calculate the root. Determine the interval on which we must be able to calculate the root. For this task, you can assume that the $c$ values come from the interval $[0,10]$.
+        \item[ii)] Implement the minimum function homomorphically using the previously determined interval for the root function.
+        \item[iii)] Calculate the lowest value of $c$ homomorphically and compare it with the value that would have been determined in plain text.
+    \end{teilaufgabe}
+    \item If we apply the calculation rule from the lecture for determining the key with the smallest value to our example, we get: 
+    \begin{equation}
+        \lambda_{min} = 2 * \sum_{i=1}^2 BS( c_{min} - c_i ) * \lambda_{i}
+    \end{equation}
+
+    Implement this calculation rule homomorphically. Then, homomorphically determine the value of $\lambda$ with the lowest $c$ value and compare it with the value that would have been determined in plain text.
+    
+\end{teilaufgabe}
+
+
+\end{aufgabe}

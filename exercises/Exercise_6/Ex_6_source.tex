@@ -1,0 +1,75 @@
+\begin{aufgabe}[Performance Comparison]
+
+Homomorphic encryption is often called the holy grail of cryptography, as it allows calculations on encrypted data. By using homomorphic encryption, data in clouds could thus be kept encrypted throughout, even during processing, which would give us quasi-perfect security in clouds. However, this security comes at a price, as homomorphic encryption entails a corresponding performance overhead. 
+
+
+\begin{teilaufgabe}
+
+\item To measure the performance overhead of the CKKS,  initialize a CKKS cryptosystem with the following parameters: multDepth = 10, scaleModSize = 50 and batchSize = 2. 
+
+Measure the execution times of the following operations on your system for the unencrypted and encrypted cases: (i) addition of two numbers and (ii) multiplication of two numbers.
+
+\item Repeat the measurements from a) for the following initializations of the CKKS cryptosystem.
+
+\begin{itemize}
+    \item multDepth = 10, scaleModSize = 50 and batchSize = 2
+    \item multDepth = 25, scaleModSize = 50 and batchSize = 2
+    \item multDepth = 50, scaleModSize = 50 and batchSize = 2
+    \item multDepth = 10, scaleModSize = 50 and batchSize = 2
+    \item multDepth = 25, scaleModSize = 50 and batchSize = 16
+    \item multDepth = 50, scaleModSize = 50 and batchSize = 32
+\end{itemize}
+
+
+\end{teilaufgabe}
+
+\end{aufgabe}
+
+
+
+
+\begin{aufgabe}[Homomorphic Statistic]
+The CKKS cryptosystem makes it possible to combine unencrypted numbers with encrypted numbers correctly. We can use this fact to calculate simple statistic metrics homomorphically using only addition and multiplication. 
+
+\begin{teilaufgabe}
+\item The mean value of the numbers $x_1, \dots , x_n$ can be calculated as follows:
+
+\begin{displaymath}
+\bar{x} = \frac{1}{n} * \sum_{i=1}^n x_i
+\end{displaymath}
+
+Calculate the mean value for the following numbers, once encrypted and unencrypted: 1, 2, 3. 
+Compare the execution times and accuracy of the calculated value for $\bar{x}$ of the encrypted and unencrypted variants.
+
+\end{teilaufgabe}
+
+
+\begin{teilaufgabe}
+\item The variance of the numbers $x_1, \dots , x_n$ can be calculated as follows:
+
+\begin{displaymath}
+S^2 = \frac{1}{n} * \sum_{i=1}^n (x_i - \bar{x})^2
+\end{displaymath}
+
+Calculate the variance for the following numbers, once encrypted and unencrypted: 1, 2, 3. 
+Compare the execution times of and accuracy of the calculated value for $S^2$ of the encrypted and unencrypted variants.
+
+\end{teilaufgabe}
+
+
+\begin{teilaufgabe}
+\item The standard deviation of the numbers $x_1, \dots , x_n$ can be calculated as follows:
+
+\begin{displaymath}
+S = \sqrt{S^2}
+\end{displaymath}
+
+Calculate the standard deviation for the following numbers, once encrypted and unencrypted: 1, 2, 3. 
+Compare the execution times and accuracy of the calculated value for $S$ of the encrypted and unencrypted variant. 
+
+\end{teilaufgabe}
+
+Note: In the homomorphic case, you can realize the multiplication with $\frac{1}{n}$ by calculating the inverse of n unencrypted and multiplying the ciphertext by the result. You may use the following approximation to calculate the square root: 
+$\sqrt{x} \approx 1.2728x^3 - 2.784x^2 +2.5223 x$.
+
+\end{aufgabe}
