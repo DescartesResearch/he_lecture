@@ -35,6 +35,7 @@ The content of the repository is structured as follows:
 | Date              | Type           | Place                                   | Lecturers                        |
 | ----------------- | -------------- | --------------------------------------- | -------------------------------- |
 | Oct. 24 - Feb. 25 | Regular Course | University of Würzburg, Germany        | Tobias Schneider & Thomas Prantl |
+| Oct. 24 - Feb. 25 | Regular Course | University of Würzburg, Germany         | Tobias Schneider & Thomas Prantl |
 | Feb. 25           | Block Course   | University of Hohenheim, Germany        | Tobias Schneider & Thomas Prantl |
 | Mar. 25           | Block Course   | Goethe University of Frankfurt, Germany | Tobias Schneider & Thomas Prantl |
 
