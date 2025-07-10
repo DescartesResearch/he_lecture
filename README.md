@@ -62,7 +62,7 @@ You are free to:
   You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 
 **⚠️ Exception:**  
-> The slide titled **"Original Lecture Team"** (Slide 2) must remain **unaltered** in all uses and adaptations.  
+> The slide titled **"Original Lecture Team"** (Slide 2) in the first lecture (`lectures/Lecture_1.pptx`) must remain **unaltered** in all uses and adaptations.  
 > This specific slide may not be modified, removed, or repurposed in derivative works.
 
 For proper attribution, please refer to the [How to cite](#how-to-cite) section below
