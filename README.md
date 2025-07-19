@@ -27,7 +27,7 @@ The content of the repository is structured as follows:
   - There further is a small slide set `OpenFHE_Code_Example.ptx` that contains a brief example for the usage of the [OpenFHE library](https://github.com/openfheorg/openfhe-development)
   - The lecture contains a set of toy examples. They are provided in the files starting with `Toy_`. The presentation slides contain a note in the top right-hand corner indicating where we consider it appropriate to present them during the leture
 - `exercises` &rarr; Exercise Sheets
-  - For each exercise sheet there is one director
+  - For each exercise sheet there is one directory
   - Each directory contains the LaTeX source file for the exercises. There is no LaTeX preamble but the sources can be easily copied into any template for exercise sheets
   - Each directory also contains a PDF file that gives an idea how the exercises can look like. It is a slightly modified design from the one that was used for the original three courses in 2024/25
 
