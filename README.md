@@ -32,7 +32,7 @@ The content of the repository is structured as follows:
   - Each directory contains the LaTeX source file for the exercises. There is no LaTeX preamble but the sources can be easily copied into any template for exercise sheets
   - Each directory also contains a PDF file that gives an idea of what the exercises can look like. It is a slightly modified design from the one that was used for the original three courses in 2024/25
 
-## Lecture Hold
+## Lecture History
 | Date              | Type           | Place                                   | Lecturers                        |
 | ----------------- | -------------- | --------------------------------------- | -------------------------------- |
 | Oct. 24 - Feb. 25 | Regular Course | University of Würzburg, Germany         | Tobias Schneider & Thomas Prantl |
@@ -45,7 +45,7 @@ The content of the repository is structured as follows:
 ## Call for Contributions/Usage
 
 We welcome all usage and contributions to this lecture.
-If you hold the lecture we encourage you to open an [issue](https://github.com/DescartesResearch/he_lecture/issues) so that we are able to include it in the [Lecture Hold](#lecture-hold) section.
+If you hold the lecture we encourage you to open an [issue](https://github.com/DescartesResearch/he_lecture/issues) so that we are able to include it in the [Lecture History](#lecture-history) section.
 Furthermore, if you post about it on LinkedIn we encourage you to notify us or tag [Descartes Research](https://de.linkedin.com/company/descartes-research) and we will be happy to repost it.
 
 ---
@@ -92,9 +92,5 @@ If you use or adapt this lecture, please cite it using the following **BibTeX** 
   series = {EAI CSECS 2025},
   year = 2027
 }
-
 ```
 
-Example:
-```
-Oratio Homomorphico: Creating a Lecture for Homomorphic Encryption by applying Design-Based Research. Prantl, Thomas; Schneider, Tobias; Horn, Lukas; Engel, Simon; Iffländer, Lukas; Krupitzer, Christian; Bonilla, Rafael; Kounev, Samuel; in _Proceedings of the 4th International Conference on Computer Science and Education in Computer Science (CSECS 2025), Bratislava, Slovakia_ (2027), pp. 31–45. DOI: [10.1007/978-3-032-33123-6_3](https://doi.org/10.1007/978-3-032-33123-6_3).
