@@ -85,7 +85,6 @@ If you use or adapt this lecture, please cite it using the following **BibTeX** 
   booktitle = {Proceedings of the 4th International Conference on Computer Science and Education in Computer Science (CSECS 2025), Bratislava, Slovakia},
   address = {Cham},
   editor = {Zlateva, Tanya and Tuparov, Georgi},
-  keywords = {t_interdisciplinary},
   month = {07},
   pages = {31–45},
   publisher = {Springer Nature Switzerland},
