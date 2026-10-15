@@ -1,7 +1,8 @@
 # Introduction to Homomorphic Cryptosystems - HE Lecture
+[![DOI](https://img.shields.io/badge/DOI-10.1007%2F978--3--032--33123--6__3-blue)](https://doi.org/10.1007/978-3-032-33123-6_3)
 ---
 This repository contains the lecture materials for the lecture that provides an introduction to homomorphic cryptosystem.
-It was published at [CSECS'25](https://csecs-conf.eai-conferences.org/2025/) as _"Oratio Homomorphico: Creating a Lecture for Homomorphic Encryption by applying Design-Based Research"_
+It was published at [CSECS'25](https://csecs-conf.eai-conferences.org/2025/) as _"[Oratio Homomorphico: Creating a Lecture for Homomorphic Encryption by applying Design-Based Research](https://doi.org/10.1007/978-3-032-33123-6_3)"_
 
 ## Authors
 | Name                | Affiliation                                  | E-Mail                               |
@@ -38,6 +39,7 @@ The content of the repository is structured as follows:
 | Oct. 24 - Feb. 25 | Regular Course | University of Würzburg, Germany         | Tobias Schneider & Thomas Prantl |
 | Feb. 25           | Block Course   | University of Hohenheim, Germany        | Tobias Schneider & Thomas Prantl |
 | Mar. 25           | Block Course   | Goethe University of Frankfurt, Germany | Tobias Schneider & Thomas Prantl |
+| Oct. 25 - Feb. 26 | Regular Course | University of Würzburg, Germany         | Thomas Prantl & Lukas Horn       |
 
 ---
 
@@ -80,16 +82,20 @@ If you use or adapt this lecture, please cite it using the following **BibTeX** 
 ```
 @inproceedings{Oratio_Sardinen_2025,
   author = {Prantl, Thomas and Schneider, Tobias and Horn, Lukas and Engel, Simon and Iffländer, Lukas and Krupitzer, Christian and Bonilla, Rafael and Kounev, Samuel},
-  booktitle = {Proceedings of the 4th EAI Conference on Computer Science and Education in Computer Science},
-  month = {07},
-  publisher = {Springer},
-  series = {EAI CSECS 2025},
   title = {Oratio Homomorphico: Creating a Lecture for Homomorphic Encryption by applying Design-Based Research},
-  year = 2025
+  booktitle = {Proceedings of the 4th International Conference on Computer Science and Education in Computer Science (CSECS 2025), Bratislava, Slovakia},
+  address = {Cham},
+  editor = {Zlateva, Tanya and Tuparov, Georgi},
+  keywords = {t_interdisciplinary},
+  month = {07},
+  pages = {31–45},
+  publisher = {Springer Nature Switzerland},
+  series = {EAI CSECS 2025},
+  year = 2027
 }
 
 ```
 
 Example:
 ```
-Oratio Homomorphico: Creating a Lecture for Homomorphic Encryption by applying Design-Based Research. Prantl, Thomas; Schneider, Tobias; Horn, Lukas; Engel, Simon; Iffländer, Lukas; Krupitzer, Christian; Bonilla, Rafael; Kounev, Samuel; in _Proceedings of the 4th EAI Conference on Computer Science and Education in Computer Science_ (2025).
+Oratio Homomorphico: Creating a Lecture for Homomorphic Encryption by applying Design-Based Research. Prantl, Thomas; Schneider, Tobias; Horn, Lukas; Engel, Simon; Iffländer, Lukas; Krupitzer, Christian; Bonilla, Rafael; Kounev, Samuel; in _Proceedings of the 4th International Conference on Computer Science and Education in Computer Science (CSECS 2025), Bratislava, Slovakia_ (2027), pp. 31–45. DOI: [10.1007/978-3-032-33123-6_3](https://doi.org/10.1007/978-3-032-33123-6_3).
